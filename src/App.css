@@ -1,0 +1,159 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.qty-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qty-container .input-qty{
+  text-align: center;
+  padding: 6px 10px;
+  border: 1px solid #d4d4d4;
+  max-width: 80px;
+}
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus{
+  border: 1px solid #d4d4d4;
+  padding: 10px 13px;
+  font-size: 10px;
+  height: 38px;
+  width: 38px;
+  transition: 0.3s;
+}
+.qty-container .qty-btn-plus{
+  margin-left: -1px;
+}
+.qty-container .qty-btn-minus{
+  margin-right: -1px;
+}
+
+
+button:focus,
+input:focus{
+  outline: none;
+  box-shadow: none;
+}
+a,
+a:hover{
+  text-decoration: none;
+}
+
+/*--------------------------*/
+.qty-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qty-container .input-qty{
+  text-align: center;
+  padding: 6px 10px;
+  border: 1px solid #d4d4d4;
+  max-width: 80px;
+}
+.qty-container .qty-btn-minus,
+.qty-container .qty-btn-plus{
+  border: 1px solid #d4d4d4;
+  padding: 10px 13px;
+  font-size: 10px;
+  height: 38px;
+  width: 38px;
+  transition: 0.3s;
+}
+.qty-container .qty-btn-plus{
+  margin-left: -1px;
+}
+.qty-container .qty-btn-minus{
+  margin-right: -1px;
+}
+
+
+/*---------------------------*/
+.btn-cornered,
+.input-cornered{
+  border-radius: 4px;
+}
+.btn-rounded{
+  border-radius: 50%;
+}
+.input-rounded{
+  border-radius: 50px;
+}
+
+
+/* table pagination isseu solved */
+.shop-main-area {
+  background: #fff none repeat scroll 0 0;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: -80px;
+  padding: 80px 0px 20px !important;
+}
+
+
+/* .single-banner .banner-img a img {
+  width: 100%;
+  transition: .4s;
+  transform: scale(1.0);
+  height: 300px !important;
+} */
+.single-banner .banner-img a img {
+  width: 100%;
+  transition: .4s;
+  transform: scale(1.0);
+  height: 250px;
+}
+
+
+/* for coupon btn */
+p.checkout-coupon input[type="button"]:hover {
+  background: #ee3333 none repeat scroll 0 0;
+}
+
+p.checkout-coupon input[type="button"] {
+  background: #333 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0;
+  color: #fff;
+  height: 36px;
+  margin-left: 6px;
+  padding: 5px 10px;
+  transition: all 0.3s ease 0s;
+}
